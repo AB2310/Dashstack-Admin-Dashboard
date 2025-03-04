@@ -1,0 +1,160 @@
+/* Main layout for Add Contact Page */
+.add-contact-layout {
+    display: flex;
+    height: 100vh;
+    background-color: #0f172a;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #0f172a;
+    color: white;
+  }
+  
+  .add-contact-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .upload-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+  }
+  
+  .upload-photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECECEE;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    color: #0f172a;
+    font-size: 2.0vw;
+  }
+  .uploaded-img {
+    font-size: 2.0vw;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .upload-photo-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .upload-icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .upload-photo-btn p {
+    color: #4880ff;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  /* .upload-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  } */
+  .contact-form-container
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+  }
+  .contact-form-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    font-weight: 600;
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-group input,
+  .input-group select {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e293b;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .input-group input::placeholder {
+    color: #b2b2b2;
+  }
+  
+  .input-group select {
+    background-color: #1e293b;
+    color: white;
+  }
+  
+  .add-contact-btn {
+    width: 30%;
+    /* padding: 12px; */
+    background-color: #4880ff;
+    color: white;
+    /* font-weight: 600; */
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-contact-btn:hover {
+    background-color: #3b67b2;
+  }
+  

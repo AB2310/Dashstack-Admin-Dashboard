@@ -1,0 +1,237 @@
+/* Main Content Area */
+.main-content {
+  margin-left: 260px;
+  width: calc(100% - 310px);
+  padding: 20px;
+  background: #0f172a;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+/* When Sidebar is Closed */
+.margin-closed {
+  margin-left: 80px;
+  width: calc(100% - 180px);
+}
+
+/* Dashboard Title */
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Stats Container */
+.stats-container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* Sales & Deals Section */
+.sales-details,
+.deals-details, 
+.revenue-graph-section {
+  background: #273142;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Sales Chart Section */
+.sales-header, .revenue-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Chart & Table Placeholder */
+.chart-placeholder, .table-placeholder {
+  height: 250px;
+  background: #334155;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: lightgray;
+  width: 100%;
+}
+
+/* Deals Table */
+.deals-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.deals-table th,
+.deals-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #334155;
+}
+
+.deals-table th {
+  background-color: #1e293b;
+  color: #9ca3af;
+}
+
+.deals-table td {
+  background-color: #273142;
+  color: #ffffff;
+}
+
+/* Product Image in the Product Name Column */
+.deals-table td img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/* Status Column Styling */
+.deals-table td:last-child {
+  border-radius: 8px;
+}
+
+.deals-table .delivered {
+  background-color: #10B981;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.deals-table .pending {
+  background-color: #F59E0B;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* Dropdown */
+.sales-dropdown {
+  background: #1e293b;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Revenue Graph Container */
+.revenue-graph-section h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.revenue-graph-section select {
+  background: #1e293b;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.flex-sections {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Customers Section */
+.customers-section {
+  background: #273142;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+/* Circle Progress Image */ 
+.circle-progress-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.circle-progress-img {
+  width: 150px; /* Adjust size as per your image */
+  height: 150px;
+  object-fit: contain;
+}
+
+/* Customer Stats */
+.customer-stats {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 14px;
+  color: #A0AEC0;
+  margin-top: 20px;
+  gap: 20px;
+}
+.c-stats{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+/* Featured Product Section */
+.featured-product-section {
+  background: #273142;
+  border-radius: 10px;
+  width: 35%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container for Product Image */
+.product-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;  /* Adjust this based on your desired height */
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+/* Image Styling */
+.featured-product-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ensures the image maintains aspect ratio and fits within the container */
+  border-radius: 10px;
+}
+
+/* Product Name and Price */
+.product-name {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0%;
+}
+.product-price{
+  color: #F2AC34;
+  margin-top: 0%;
+  margin-bottom: 20px;
+}
+
+
+.sales-analytics-section {
+  background: #273142;
+  padding: 20px;
+  border-radius: 10px;
+  width: 35%;
+  text-align: center;
+  box-sizing: border-box;
+}

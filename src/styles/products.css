@@ -1,0 +1,188 @@
+.mainp-content {
+  margin-left: 260px;
+  width: calc(100% - 310px);
+  padding: 30px;
+  background: #0f172a;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+/* When Sidebar is Closed */
+.margin-closed {
+  margin-left: 80px;
+  width: calc(100% - 180px);
+}
+
+/* Product Title */
+.product-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* General Styles */
+.products-container {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #333;
+}
+
+/* Top Banner Section */
+.top-banner {
+  background-image: url('C:/Users/abeyt/OneDrive/Desktop/INTERNSHIP/REACT/Project2/dashstack-admin/src/assets/bg.png'); /* Make sure the path to the background image is correct */
+  background-size: 105%;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.banner-content {
+  padding: 150px;
+}
+
+.banner-content h1 {
+  font-size: 37px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.shop-now-btn {
+  background-color: #FF8743;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now-btn:hover {
+  background-color: #f76816;
+}
+
+/* Products Section */
+.products-section {
+  background-color: #0f172a;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+/* Product Card */
+.product-card {
+  background-color: #273142;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  padding: 15px;
+  position: relative;
+}
+
+.product-card img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.product-card .price {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0%;
+  margin-bottom: 10px;
+  color: #6091FF;
+}
+
+.product-card .quantity {
+  font-size: 14px;
+  margin: 0%;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.product-card .edit-btn {
+  background-color: #4B5668;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-card .edit-btn:hover {
+  background-color: #485b7a;
+}
+
+/* Heart Icon */
+.favorite-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  right: 10px; /* Align to the right */
+  background-color: #4B5668;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 24px; /* Adjust the size of the heart */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.favorite-icon svg {
+  transition: color 0.3s ease;
+}
+
+.favorite-icon:hover {
+  transform: scale(1.1); /* Add a scale effect on hover */
+}
+
+.favorite-icon.filled {
+  color: #e63946; /* Red heart when clicked */
+}
+
+/* Star Ratings */
+.rating {
+  color: #ffb400;
+}
+
+.star {
+  font-size: 18px;
+  color: #ffb400;
+}
+
+.star.empty {
+  color: #ddd;
+}
+
+.star.half {
+  color: #ffb400;
+  font-size: 18px;
+}

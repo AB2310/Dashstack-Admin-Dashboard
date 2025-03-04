@@ -1,0 +1,84 @@
+/* Main Content Styles */
+.mainps-content {
+    margin-left: 260px;
+    width: calc(100% - 310px);
+    padding: 30px;
+    background: #0f172a;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .margin-closed {
+    margin-left: 80px;
+    width: calc(100% - 180px);
+  }
+  
+  /* Title */
+  .product-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Product Stock Table */
+  .product-stock-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .product-stock-table th,
+  .product-stock-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .product-stock-table th {
+    background-color: #313D4F;
+    color: #fff;
+  }
+  
+  .product-stock-table td {
+    background-color: #273142;
+    color: #fff;
+    padding: 25px ;
+    border-bottom: 0.2px solid #979797;
+  }
+  
+  .product-stock-table img {
+    width: 50px;
+  }
+  
+  .color-options {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .color-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+   
+  }
+  
+  .edit-btn{
+    border-right: 0.5px solid #979797;
+  }
+
+  .edit-btn,
+  .delete-btn {
+    background-color: #323D4E;
+    color: white;
+    /* border: none; */
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn{
+    color: #EF3826;
+  }
+  

@@ -1,0 +1,112 @@
+.pricing-page {
+    padding: 30px;
+    background-color: #0f172a;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Pricing section title */
+  .pricing-title {
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  
+  /* Layout for the pricing cards */
+  .pricing-cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  /* Common card styles */
+  .pricing-card {
+    background-color: #313D4F;
+    padding: 40px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-card .plan-name {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .pricing-card .monthly-charge {
+    color: white;
+    margin: 10px ;
+  }
+  
+  .pricing-card .monthly-charge  {
+    font-size: 16px;
+  }
+
+  .amt{
+    font-size: 46px;
+    font-weight: 700;
+    color: #4880ff;
+    margin-top: 0;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .features li {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #ffffff; /* Default color for available features */
+    transition: color 0.3s ease;
+  }
+
+  .features .disabled {
+    color: #7b7c7e; /* Grey color for disabled features */
+  }
+  
+  .get-started-btn {
+    background-color: transparent;
+    border: 2px solid #4880ff;
+    color: #4880ff;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #4880ff;
+    color: white;
+  }
+  
+  
+  .trial-text {
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 20px;
+    text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+    .pricing-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .pricing-card {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+
+     .main-content {
+      margin-left: 0;
+    }
+  }

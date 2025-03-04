@@ -1,0 +1,96 @@
+.contact-layout {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #0f172a;
+    color: white;
+    overflow-y: auto;
+  }
+  
+  .contact-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-title {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+  .add-contact-btn {
+    background-color: #4880ff;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .add-contact-btn:hover {
+    background-color: #3b67b2;
+  }
+  
+  .contacts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .contact-card {
+    background-color: #273142;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .contact-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-card h3 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .contact-card p {
+    color: #c1c1c1;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  
+  .message-btn {
+    background-color: transparent;
+    color: white;
+    padding: 10px 40px ;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    /* display: flex; */
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .message-btn:hover {
+    background-color: #4880ff;
+  }
+  
+  .message-icon {
+    font-size: 16px;
+    margin-right: 8px;
+  }
+  

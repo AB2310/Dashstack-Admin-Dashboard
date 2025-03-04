@@ -1,0 +1,121 @@
+/* Sidebar Default Style */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: #1e293b;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+  font-family: "Nunito Sans", sans-serif;
+  transition: width 0.3s ease-in-out;
+}
+
+/* Sidebar Closed */
+.sidebar.closed {
+  display: none;
+}
+
+/* Sidebar Menu */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar ul li {
+  margin-bottom: 8px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #9ca3af;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Active & Hover Effect */
+.sidebar ul li a.active,
+.sidebar ul li a:hover {
+  background: #4880ff;
+  color: white;
+  font-weight: 600;
+}
+
+/* Collapsible Pages Section */
+.collapsible {
+  position: relative;
+}
+
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #2d3748;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.collapsible-header:hover {
+  background-color: #4e73df;
+}
+
+.collapsible-content {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.collapsible-content li {
+  margin-bottom: 10px;
+}
+
+.collapsible-content li a {
+  font-size: 14px;
+}
+
+/* Chevron Icon */
+.collapsible-header svg {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.collapsible-header svg {
+  transform: rotate(0deg);
+}
+
+.collapsible-header svg.open {
+  transform: rotate(180deg);
+}
+
+
+/* sidebar.css */
+.sidebar {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #3b67b2;
+  border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #3b67b2;
+}

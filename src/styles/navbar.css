@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background: #111827;
+  color: white;
+  padding: 10px;
+  gap: 100px;
+  width: calc(100% - 260px);
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+/* Hamburger Button */
+.hamburger {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #1e293b;
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
