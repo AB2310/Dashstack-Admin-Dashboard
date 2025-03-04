@@ -1,0 +1,136 @@
+/* Invoice Page Layout */
+.invoice-layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #0f172a;
+    color: white;
+    overflow-y: auto;
+  }
+  
+  .invoice-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .invoice-bg {
+    background-color: #273142;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .invoice-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left: 85px;
+    padding: 20px;
+  }
+  
+  .invoice-details div {
+    width: 30%;
+  }
+  
+  .invoice-details strong {
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .invoice-details b {
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  
+  .invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  .invoice-table th,
+  .invoice-table td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1.5px ridge #313D4F;
+    color: #fff;
+  }
+  
+  .invoice-table th {
+    /* background-color: #1e293b; */
+    background-color: #313D4F;
+  }
+  
+  .invoice-table tbody tr:nth-child(even) {
+    /* background-color: #2e3a4a; */
+    background-color: #273142;
+  }
+  
+  .invoice-summary {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: right;
+    margin-right: 150px;
+  }
+  
+  .invoice-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 60px;
+  }
+  
+  .print-btn,
+  .send-btn {
+    background-color: #4880ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .print-btn {
+    background-color: #323D4E;
+    font-size: 25px;
+  }
+  
+  .print-btn:hover,
+  .send-btn:hover {
+    background-color: #3b67b2;
+  }
+
+  .send-btn i{
+    background-color: #6E9AFF;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15%;
+  }
+  
+  .invoice-from,
+  .invoice-to,
+  .invoice-date {
+    font-size: 14px;
+  }
+  
+  .invoice-from,
+  .invoice-to {
+    color: #c1c1c1;
+  }
+  
+  .invoice-date {
+    color: #9ca3af;
+  }
+  
