@@ -26,7 +26,7 @@ const AddContact = () => {
         <Navbar toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)} />
         <div className="add-contact-container">
           <h1 className="add-contact-title">Add New Contact</h1>
-
+        <div className="contact-bg">
           <div className="upload-photo-container">
           <div className="upload-photo">
            <div className="img-container">
@@ -54,7 +54,7 @@ const AddContact = () => {
 
           <div className="contact-form-container">
               <form className="contact-form">
-                <div className="contct-form-left">
+                <div className="contact-form-right">
                     <div className="input-group">
                       <label>First Name</label>
                       <input type="text" placeholder="Enter your first name" />
@@ -87,8 +87,9 @@ const AddContact = () => {
                     </div>
                 </div>
               </form>
-              <button className="add-contact-btn">Add Now</button>
+              <button className="add-newcontact-btn">Add Now</button>
           </div>
+        </div>
         </div>
       </div>
     </div>

@@ -13,7 +13,7 @@
   }
   
   .add-contact-title {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 600;
     margin-bottom: 30px;
   }
@@ -21,8 +21,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
     margin-bottom: 30px;
     flex-direction: column;
+  }
+
+
+  .contact-bg{
+    background-color: #273142;
   }
   
   .upload-photo-container {
@@ -40,7 +46,7 @@
     height: 100px;
     border-radius: 50%;
     margin-bottom: 10px;
-    color: #0f172a;
+    color: #414141;
     font-size: 2.0vw;
   }
   .uploaded-img {
@@ -100,14 +106,21 @@
   .contact-form {
     width: 100%;
     max-width: 600px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-right: 50px;
     display: flex;
-    gap: 60px;
+    gap: 100px;
   }
   .contact-form-left{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    /* gap: 20px; */
+  }
+
+  .contact-form-right{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
   }
   
   .input-group {
@@ -115,7 +128,8 @@
   }
   
   .input-group label {
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 14px;
     color: white;
     margin-bottom: 5px;
     display: block;
@@ -123,14 +137,16 @@
   
   .input-group input,
   .input-group select {
-    width: 100%;
-    padding: 10px;
-    background-color: #1e293b;
+    /* width: 100%; */
+    /* padding: 10px; */
+    background-color: #323D4E;
     border: 1px solid #475569;
-    border-radius: 10px;
-    color: white;
-    font-size: 16px;
+    border-radius: 5px;
+    color: #B6B6B6;
+    font-size: 14px;
     margin-bottom: 10px;
+    /* padding-left: 5px; */
+    padding: 20px 90px 20px 10px;  ; 
   }
   
   .input-group input::placeholder {
@@ -138,13 +154,13 @@
   }
   
   .input-group select {
-    background-color: #1e293b;
+    background-color: #323D4E;
     color: white;
   }
   
-  .add-contact-btn {
-    width: 30%;
-    /* padding: 12px; */
+  .add-newcontact-btn {
+    width: 20%;
+    padding: 20px;
     background-color: #4880ff;
     color: white;
     /* font-weight: 600; */
@@ -152,9 +168,10 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 30px;
   }
   
-  .add-contact-btn:hover {
+  .add-newcontact-btn:hover {
     background-color: #3b67b2;
   }
   
