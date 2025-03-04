@@ -58,42 +58,42 @@ const Sidebar = ({ isOpen }) => {
             <ul className="collapsible-content">
               <li>
                 <NavLink to="/pricing" className={({ isActive }) => (isActive ? "active" : "")}>
-                  Pricing
+                  &emsp; Pricing
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/calendar" className={({ isActive }) => (isActive ? "active" : "")}>
-                  Calendar
+                &emsp; Calendar
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/to-do" className={({ isActive }) => (isActive ? "active" : "")}>
-                  To-Do
+                &emsp; To-Do
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>
-                  Contact
+                &emsp; Contact
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/invoice" className={({ isActive }) => (isActive ? "active" : "")}>
-                  Invoice
+                &emsp; Invoice
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/ui-elements" className={({ isActive }) => (isActive ? "active" : "")}>
-                  UI Elements
+                &emsp; UI Elements
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/team" className={({ isActive }) => (isActive ? "active" : "")}>
-                  Team
+                &emsp; Team
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/table" className={({ isActive }) => (isActive ? "active" : "")}>
-                  Table
+                &emsp; Table
                 </NavLink>
               </li>
             </ul>
