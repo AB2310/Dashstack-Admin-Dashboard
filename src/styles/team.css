@@ -1,0 +1,73 @@
+/* Team Page Layout */
+.team-layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #0f172a;
+    color: white;
+  }
+
+  .team-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .team-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .add-member-btn {
+    background-color: #4880ff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .add-member-btn:hover {
+    background-color: #3b67b2;
+  }
+  
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .team-member-card {
+    background-color: #273142;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-member-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .team-member-card h3 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .team-member-card p {
+    color: #c1c1c1;
+    margin-bottom: 10px;
+  }
+  
