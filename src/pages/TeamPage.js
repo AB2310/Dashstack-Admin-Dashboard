@@ -14,6 +14,7 @@ import team9 from "../assets/team9.png";
 import team10 from "../assets/team10.png";
 import team11 from "../assets/team11.png";
 import team12 from "../assets/team12.png";
+import { Link } from "react-router-dom";
 
 const TeamPage = () => {
   // Dummy team data
@@ -41,7 +42,11 @@ const TeamPage = () => {
         <Navbar toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)} />
         <div className="team-header">
             <h1 className="team-title">Team</h1>
-            <button className="add-member-btn">Add New Member</button>
+            <button className="add-member-btn">
+             <Link to="/add-team" style={{ color: "white", textDecoration: "none" }}>
+               Add New Contact
+             </Link>
+            </button>
         </div>
         <div className="team-container">
           {teamMembers.map((member, index) => (

@@ -1,0 +1,177 @@
+/* Main layout for Add Contact Page */
+.add-team-layout {
+    display: flex;
+    height: 100vh;
+    background-color: #0f172a;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #0f172a;
+    color: white;
+  }
+  
+  .add-team-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .uploadtm-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-direction: column;
+  }
+
+
+  .team-bg{
+    background-color: #273142;
+  }
+  
+  .uploadtm-photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .img-containertm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECECEE;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    color: #414141;
+    font-size: 2.0vw;
+  }
+  .uploadedtm-img {
+    font-size: 2.0vw;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .uploadtm-photo-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .uploadtm-icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .uploadtm-photo-btn p {
+    color: #4880ff;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  /* .upload-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  } */
+  .team-form-container
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .team-form {
+    width: 100%;
+    max-width: 600px;
+    /* margin: 0 auto; */
+    margin-right: 50px;
+    display: flex;
+    gap: 100px;
+  }
+  .team-form-left{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+  }
+
+  .team-form-right{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+  }
+  
+  .inputtm-group {
+    margin-bottom: 20px;
+  }
+  
+  .inputtm-group label {
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .inputtm-group input,
+  .inputtm-group select {
+    /* width: 100%; */
+    /* padding: 10px; */
+    background-color: #323D4E;
+    border: 1px solid #475569;
+    border-radius: 5px;
+    color: #B6B6B6;
+    font-size: 14px;
+    margin-bottom: 10px;
+    /* padding-left: 5px; */
+    padding: 20px 90px 20px 10px;  ; 
+  }
+  
+  .inputtm-group input::placeholder {
+    color: #b2b2b2;
+  }
+  
+  .inputtm-group select {
+    background-color: #323D4E;
+    color: white;
+  }
+  
+  .add-newteam-btn {
+    width: 20%;
+    padding: 20px;
+    background-color: #4880ff;
+    color: white;
+    /* font-weight: 600; */
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  .add-newteam-btn:hover {
+    background-color: #3b67b2;
+  }
+  

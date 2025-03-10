@@ -9,6 +9,7 @@ import AddContact from "./components/AddContact";
 import InvoicePage from './pages/InvoicePage'; 
 import UIElements from "./pages/UIElements";
 import TeamPage from './pages/TeamPage';
+import AddTeam from './components/AddTeam';
 import ToDoPage from './pages/ToDoPage';
 import OrderListPage from './pages/OrderListPage';
 import TablePage from './pages/TablePage';
@@ -28,6 +29,7 @@ const AppRoutes = () => {
         <Route path="/invoice" element={<InvoicePage />} />
         <Route path="/ui-elements" element={<UIElements />} />
         <Route path="/team" element={<TeamPage />} />
+        <Route path="/add-team" element={<AddTeam />} />
         <Route path="/to-do" element={<ToDoPage />} />
         <Route path="/orders" element={<OrderListPage />} />
         <Route path="/table" element={<TablePage />} />

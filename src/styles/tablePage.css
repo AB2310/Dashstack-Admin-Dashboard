@@ -11,17 +11,12 @@
   }
   
   .table-page-title {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 600;
     margin-bottom: 20px;
   }
   
-  .table-title {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    color: #FF8743;
-  }
+  
   
   /* Table Styling */
   .product-table {
