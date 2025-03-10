@@ -70,31 +70,32 @@
     text-decoration: none;
   }
   
-  .task-checkbox {
+  input[type='checkbox'] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     margin-right: 15px;
     width: 25px;
     height: 25px;
-    background-color: transparent;
-    border: 1px solid #4880ff;
+    background-color: #323D50;
     border-radius: 5px;
     position: relative;
-    transition: background-color 0.3s ease, border 0.3s ease;
 }
 
 .task-checkbox:checked {
     background-color: #4880ff;
-    border: 1px solid #4880ff;
+    border: 1px solid white;
 }
 
-.task-checkbox:checked::after {
-    content: '';
+input[type='checkbox']:checked::after {
+    
     position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 15px;
-    height: 15px;
-    background-color: transparent;
-    border-radius: 3px;
+    top: 15%;
+    left: 30%;
+    border-radius: 5px;
+    content: "✔";
+    color: white;
+    font-size: 12px;
 }
   .task-text {
     flex-grow: 1;

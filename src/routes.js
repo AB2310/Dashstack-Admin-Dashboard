@@ -10,6 +10,8 @@ import InvoicePage from './pages/InvoicePage';
 import UIElements from "./pages/UIElements";
 import TeamPage from './pages/TeamPage';
 import ToDoPage from './pages/ToDoPage';
+import OrderListPage from './pages/OrderListPage';
+import TablePage from './pages/TablePage';
 
 
 const AppRoutes = () => {
@@ -27,6 +29,9 @@ const AppRoutes = () => {
         <Route path="/ui-elements" element={<UIElements />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="/to-do" element={<ToDoPage />} />
+        <Route path="/orders" element={<OrderListPage />} />
+        <Route path="/table" element={<TablePage />} />
+        
       </Routes>
     </BrowserRouter>
   );
