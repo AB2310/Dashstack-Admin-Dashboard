@@ -8,6 +8,8 @@ import Contact from './pages/Contact';
 import AddContact from "./components/AddContact";
 import InvoicePage from './pages/InvoicePage'; 
 import UIElements from "./pages/UIElements";
+import TeamPage from './pages/TeamPage';
+import ToDoPage from './pages/ToDoPage';
 
 
 const AppRoutes = () => {
@@ -23,6 +25,8 @@ const AppRoutes = () => {
         <Route path="/add-contact" element={<AddContact />} /> 
         <Route path="/invoice" element={<InvoicePage />} />
         <Route path="/ui-elements" element={<UIElements />} />
+        <Route path="/team" element={<TeamPage />} />
+        <Route path="/to-do" element={<ToDoPage />} />
       </Routes>
     </BrowserRouter>
   );
