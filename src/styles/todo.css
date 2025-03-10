@@ -1,0 +1,139 @@
+/* To-Do Page Layout */
+.todo-layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #0f172a;
+    color: white;
+  }
+  
+  .todo-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .add-task-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-input {
+    width: 85%;
+    padding: 20px;
+    background-color: #1e293b;
+    color: white;
+    border: 1px solid #374151;
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+  
+  .add-task-btn {
+    background-color: #4880ff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .add-task-btn:hover {
+    background-color: #3b67b2;
+  }
+  
+  /* To-Do List */
+  .todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #273142;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  .task.completed {
+    background-color: #4880ff;
+    text-decoration: none;
+  }
+  
+  .task-checkbox {
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid #4880ff;
+    border-radius: 5px;
+    position: relative;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.task-checkbox:checked {
+    background-color: #4880ff;
+    border: 1px solid #4880ff;
+}
+
+.task-checkbox:checked::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border-radius: 3px;
+}
+  .task-text {
+    flex-grow: 1;
+  }
+  
+  .task-done {
+    color: white;
+  }
+  
+  .task-star {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 15px;
+  }
+
+  .task-star :hover {
+    color: #f59e0b;
+  }
+  
+  .task-star.starred {
+    color: #f59e0b;
+  }
+  
+  .task-delete {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .trash-icon {
+    font-size: 25px;
+  }
+
+  .trash-icon :hover{
+    color: red;
+  }
+  
