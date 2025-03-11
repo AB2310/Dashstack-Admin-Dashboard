@@ -3,13 +3,25 @@
   align-items: center;
   background: #111827;
   color: white;
-  padding: 10px;
-  gap: 100px;
-  width: calc(100% - 260px);
+   /* Adjust padding for more space */
+  padding-bottom: 30px;
+  width: 100%;
   transition: all 0.3s ease-in-out;
+  justify-content: space-between;
 }
 
+.n1 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 
+.n2{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 25px;
+}
 
 /* Hamburger Button */
 .hamburger {
@@ -19,6 +31,7 @@
   transition: all 0.3s ease-in-out;
 }
 
+/* Search Bar */
 .search-bar {
   width: 300px;
   padding: 10px;
@@ -30,8 +43,225 @@
   outline: none;
 }
 
+/* Language Dropdown */
+.language-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.language-btn {
+  background: #1e293b;
+  color: white;
+  padding: 10px;
+  border: 1px solid #374151;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.language-btn:hover {
+  background: #374151;
+}
+
+.language-options {
+  display: block;
+  position: absolute;
+  top: 35px;
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.language-option {
+  background: none;
+  color: white;
+  border: none;
+  padding: 5px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.language-option:hover {
+  background: #374151;
+}
+
+.flag-icon {
+  width: 30px;
+  height: 20px;
+  object-fit: cover;
+}
+
+
+/* Profile Dropdown */
+.profile-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 5px;
+  width: 220px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+/* Profile Item Style */
+.profile-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.profile-item:hover {
+  background-color: #374151;
+  border-radius: 5px;
+}
+
+/* .profile-icon-item {
+  font-size: 18px;
+  color: #9ca3af; 
+} */
+
+
+/* Profile Item Text */
+.profile-item p {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Optional - If you want to add a small hover effect for the text */
+.profile-item p:hover {
+  color: #4880FF; /* Change color on hover */
+}
+
+
+/* Notification Dropdown */
+.notification {
+  position: relative;
+}
+
+.notification .bellicon {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.notification-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #1e293b;
+  top: 35px;
+  right: 0;
+  width: 250px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  z-index: 10;
+}
+
+.notification:hover .notification-dropdown {
+  display: block;
+}
+
+/* Notification Header */
+.notification-header {
+  background-color: #1e293b;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Notification Item */
+.notification-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border-bottom: 1px solid #374151;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+.notification-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification-icon.blue {
+  background: linear-gradient(#4E96FF, #80C9FC);
+}
+
+.notification-icon.pink {
+  background: linear-gradient(#F97FD9, #FFC1E6);
+}
+
+.notification-icon.purple {
+  background: linear-gradient(#9E8FFF, #EBCBFF);
+}
+
+.notification-icon.red {
+  background: linear-gradient(#FF8F8F, #FFC1C1);
+}
+
+/* Notification Text */
+.notification-text .title {
+  font-weight: bold;
+}
+
+.notification-text .message {
+  font-size: 12px;
+  color: #d1d5db;
+}
+
+.notification-dropdown ul li:hover {
+  background: #374151;
+}
+
+/* Icons container */
 .nav-icons {
   display: flex;
   gap: 20px;
   align-items: center;
+}
+
+.icon {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.bellicon {
+  font-size: 18px;
+  color: #4880FF;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #f59e0b;
 }
