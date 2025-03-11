@@ -14,6 +14,7 @@ import ToDoPage from './pages/ToDoPage';
 import OrderListPage from './pages/OrderListPage';
 import TablePage from './pages/TablePage';
 import Settings from './pages/Settings';
+import CalendarPage from './pages/CalendarPage';
 
 
 const AppRoutes = () => {
@@ -35,6 +36,7 @@ const AppRoutes = () => {
         <Route path="/orders" element={<OrderListPage />} />
         <Route path="/table" element={<TablePage />} />
         <Route path="/settings" element={<Settings />} />
+        <Route path="/calendar" element={<CalendarPage />} />
         
       </Routes>
     </BrowserRouter>

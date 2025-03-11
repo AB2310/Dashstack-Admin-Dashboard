@@ -44,7 +44,7 @@ const TeamPage = () => {
             <h1 className="team-title">Team</h1>
             <button className="add-member-btn">
              <Link to="/add-team" style={{ color: "white", textDecoration: "none" }}>
-               Add New Contact
+               Add New Member
              </Link>
             </button>
         </div>
