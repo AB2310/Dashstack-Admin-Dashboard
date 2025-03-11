@@ -25,7 +25,7 @@ const AddTeam = () => {
       <div className={`main-content ${isSidebarOpen ? "" : "margin-closed"}`}>
         <Navbar toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)} />
         <div className="add-team-container">
-          <h1 className="add-team-title">Add New Contact</h1>
+          <h1 className="add-team-title">Add Team Member</h1>
         <div className="team-bg">
           <div className="uploadtm-photo-container">
           <div className="uploadtm-photo">

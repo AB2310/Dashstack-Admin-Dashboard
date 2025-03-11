@@ -1,0 +1,208 @@
+/* Main layout for Add Contact Page */
+.add-setting-layout {
+    display: flex;
+    height: 100vh;
+    background-color: #0f172a;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #0f172a;
+    color: white;
+  }
+  
+  .add-setting-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .uploadst-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-direction: column;
+  }
+
+
+  .setting-bg{
+    background-color: #273142;
+  }
+  
+  .uploadst-photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .img-containerst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECECEE;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    color: #414141;
+    font-size: 2.0vw;
+  }
+  .uploadedst-img {
+    font-size: 2.0vw;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .uploadst-photo-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .uploadst-icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .uploadst-photo-btn p {
+    color: #4880ff;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  /* .upload-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  } */
+  .setting-form-container
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .setting-form {
+    width: 100%;
+    max-width: 600px;
+    /* margin: 0 auto; */
+    margin-right: 50px;
+    display: flex;
+    gap: 100px;
+  }
+  .setting-form-left{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+  }
+
+  .setting-form-right{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+  }
+  
+  .inputst-group {
+    margin-bottom: 20px;
+  }
+  
+  .inputst-group label {
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .inputst-group input,
+  .inputst-group select {
+    /* width: 100%; */
+    /* padding: 10px; */
+    background-color: #323D4E;
+    border: 1px solid #475569;
+    border-radius: 5px;
+    color: #B6B6B6;
+    font-size: 14px;
+    margin-bottom: 10px;
+    /* padding-left: 5px; */
+    padding: 20px 90px 20px 10px;   
+  }
+
+  .inputs-group {
+    margin-bottom: 20px;
+  }
+  
+  .inputs-group label {
+    font-size: 14px;
+    /* font-weight: bold; */
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .inputs-group textarea {
+    width: 100%;
+    height: 150px; /* Adjust the height as needed */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #323D4E;
+    border: 1px solid #475569;
+    font-size: 14px;
+    resize: vertical; /* This allows the user to resize the textarea vertically */
+  }
+
+  .inputs-group textarea::placeholder {
+    color: #b2b2b2;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .inputs-group textarea:focus {
+    border-color: #007BFF; /* Blue border color when focused */
+    outline: none;
+  }
+  
+  
+  .inputst-group input::placeholder {
+    color: #b2b2b2;
+  }
+  
+  
+  
+  .add-setting-btn {
+    width: 20%;
+    padding: 20px;
+    background-color: #4880ff;
+    color: white;
+    /* font-weight: 600; */
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  .add-setting-btn:hover {
+    background-color: #3b67b2;
+  }
+  
